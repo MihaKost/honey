@@ -1,0 +1,60 @@
+
+@font-face {
+	font-family: "Geometria-ExtaBlack";
+	src: url("../fonts/Geometria-ExtaBlack/Geometria-ExtaBlack.eot");
+	src: url("../fonts/Geometria-ExtaBlack/Geometria-ExtaBlack.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Geometria-ExtaBlack/Geometria-ExtaBlack.woff") format("woff"),
+	url("../fonts/Geometria-ExtaBlack/Geometria-ExtaBlack.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Geometria-Medium";
+	src: url("../fonts/Geometria-Medium/Geometria-Medium.eot");
+	src: url("../fonts/Geometria-Medium/Geometria-Medium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Geometria-Medium/Geometria-Medium.woff") format("woff"),
+	url("../fonts/Geometria-Medium/Geometria-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Geometria-MediumItalic";
+	src: url("../fonts/Geometria-MediumItalic/Geometria-MediumItalic.eot");
+	src: url("../fonts/Geometria-MediumItalic/Geometria-MediumItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Geometria-MediumItalic/Geometria-MediumItalic.woff") format("woff"),
+	url("../fonts/Geometria-MediumItalic/Geometria-MediumItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Geometria-Heavy";
+	src: url("../fonts/Geometria-Heavy/Geometria-Heavy.eot");
+	src: url("../fonts/Geometria-Heavy/Geometria-Heavy.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Geometria-Heavy/Geometria-Heavy.woff") format("woff"),
+	url("../fonts/Geometria-Heavy/Geometria-Heavy.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Geometria-Bold";
+	src: url("../fonts/Geometria-Bold/Geometria-Bold.eot");
+	src: url("../fonts/Geometria-Bold/Geometria-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Geometria-Bold/Geometria-Bold.woff") format("woff"),
+	url("../fonts/Geometria-Bold/Geometria-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Geometria";
+	src: url("../fonts/Geometria/Geometria.eot");
+	src: url("../fonts/Geometria/Geometria.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Geometria/Geometria.woff") format("woff"),
+	url("../fonts/Geometria/Geometria.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+

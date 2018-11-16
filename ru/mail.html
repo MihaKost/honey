@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Send email</title>
+</head>
+<body>
+<style>
+    /* emails */
+    a[href^="mailto:"]{
+        padding-right: 20px;
+        background: url(email.png) no-repeat center right;
+    }
+
+    /* pdfs */
+    a[href$=".pdf"]{
+        padding-right: 20px;
+        background: url(pdf.png) no-repeat center right;
+    }
+</style>
+
+
+<div style="text-align: center; margin-top: 300px; font-size: 18px;">
+    <input type="text" id="message">Сообщение<br>
+    <input type="text" id="selectList">Тема письма<br>
+    <a href="#" onclick="sendMail()">Отправить письмо силой JS</a><br>
+	<br>
+    <a href="mailto:makoma@mail.ru?subject=Тема%20письма:%20Проба1&body=Текст самого письма">Отправить письмо!</a>
+</div>
+
+
+<script>
+    function sendMail()
+    {
+        var yourMessage = document.getElementById("message").value;
+        var subject = document.getElementById("selectList").value;
+        document.location.href = "mailto:makoma@mail.ru?subject="
+            + encodeURIComponent(subject)
+            + "&body=" + encodeURIComponent(yourMessage);
+    }
+</script>
+</body>
+</html>

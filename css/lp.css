@@ -1,0 +1,38 @@
+// For CPA Landing
+.top_form .price {
+	margin-left: 10px;
+}
+
+.price {
+    color: #ff5498;
+    text-align: left;
+    font-size: 30px;
+    font-family: "Geometria-ExtaBlack",sans-serif;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.price span {
+    text-decoration: line-through;
+    font-size: 28px;
+    color: #7b7979;
+    display: inline-block;
+    padding-right: 10px;
+}
+	
+.right_text .price {
+    color: #fff600;
+}
+
+.right_text .price {
+    text-align: left;
+}
+
+.txt_footer {
+	text-align: center;
+}
+
+.txt_footer p {
+	font-size: 14px;
+	margin-bottom: 0;
+}
