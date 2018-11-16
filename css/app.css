@@ -569,7 +569,7 @@ h2:before {
 .bl_res:after {
     content: '';
     position: absolute;
-    right: -19px;
+    right: 0;
     width: 300px;
     top: 18px;
     height: 300px;
@@ -638,7 +638,7 @@ h2:before {
 .content_block h2:before {
     content: '';
     position: absolute;
-    width: 324px;
+    width: 300px;
     background: url(../img/line5.png);
 }
 
@@ -1537,6 +1537,10 @@ select::-ms-expand {
         display: none;
     }
 
+    .form_arb {
+      margin-top: 0;
+    }
+
     .form {
         width: 100%;
         text-align: center;
@@ -1867,6 +1871,10 @@ select::-ms-expand {
         text-align: left;
     }
 
+    .bl_res:after {
+      display: none;
+    }
+
     .bl_res p {
         font-size: 14px;
         line-height: 15px;
@@ -1875,7 +1883,7 @@ select::-ms-expand {
         position: relative;
         left: 10px;
         text-align: left;
-        top: 0px;
+        top: 0;
     }
 
     .bl_set .price span {
@@ -2004,6 +2012,16 @@ select::-ms-expand {
     .certif_block {
         padding-top: 62px;
     }
+
+    .top_form {
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+
+    .top_form input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -2045,8 +2063,14 @@ select::-ms-expand {
         right: -5px;
     }
 
+    .comment {
+      font-size: 13px;
+      padding-left: 15px;
+    }
+
     .form input {
         font-size: 13px;
+        padding-left: 15px;
     }
 
     .top_form input {
@@ -2058,7 +2082,7 @@ select::-ms-expand {
     }
 
     .bl_res {
-        margin-right: 0px;
+        margin-right: 0;
     }
 
     .bear15 {
@@ -2117,10 +2141,6 @@ select::-ms-expand {
     .form_mail button {
         width: 100%;
     }
-}
-
-@media only screen and (max-width: 320px) {
-
 }
 
 #vk_groups {
