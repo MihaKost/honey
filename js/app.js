@@ -374,12 +374,6 @@ $(document).ready(function () {
         });
     });
 
-    $('.region').click(function () {
-        $.fancybox.open($('.modal__region'));
-
-        // $('.modal__bg').show();
-    });
-
     $('.callphone').click(function () {
         $('.modal__call').show();
         $('.modal__bg').show();
