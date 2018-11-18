@@ -127,6 +127,8 @@ $(document).ready(function () {
 
 
     $("#next1").click(function () {
+        $("#step1").removeClass('expanded');
+        $("#step2").addClass('expanded');
         var pattern = /^[a-z0-9_.-]+@[a-z0-9-.]+\.[a-z.]{2,6}$/i;
         var pat_var = false;
         if ($('[name="Shp_test2"]').val().search(pattern) != 0) {
@@ -367,7 +369,9 @@ $(document).ready(function () {
         $('#sum_total2').text((price * count) + dostavka);
         $('#quantity_current').text(count);
         $('input[name="count"]').val(count);
-        $.fancybox.open($('#foo'));
+        $.fancybox.open($('#foo'), {
+
+        });
     });
 
     $('.region').click(function () {

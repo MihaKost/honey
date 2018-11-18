@@ -142,7 +142,7 @@
 }
 
 .basket .promo__box {
-	visibility: hidden;
+	  visibility: hidden;
     height: 155px;
 }
 
@@ -442,7 +442,7 @@
     }
 
     .basket {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .basket .right_side {
@@ -564,19 +564,54 @@
     }
 
     .basket .red_label {
-        width: 100px !important;
-        min-width: 0px;
+        /*width: 100px !important;*/
+        min-width: 0;
+        height: auto;
     }
 
     .mobile-basket-wrap .red_label .dashed-line .price {
-        font-size: 17px;
+      font-size: 17px;
     }
+
+    .mobile-basket-wrap .basket-left {
+       display: block;
+       float: none;
+       width: 100% !important;
+     }
+    .mobile-basket-wrap .basket-right {
+      display: block;
+      width: 100% !important;
+      float: none;
+    }
+
+    .mobile-basket-wrap {
+      height: auto;
+    }
+
+    .basket .promo__box {
+      display: none;
+    }
+
+    .basket .left_side .bottle {
+      height: 100px;
+      margin-left: 0;
+      margin-top: 10px;
+      display: inline-block;
+      margin-bottom: 0;
+      vertical-align: middle;
+    }
+
+    .basket .red_label {
+      margin-left: 0 !important;
+      margin-bottom: 0;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
 }
 
 @media only screen and (max-width: 430px) {
-    .mobile-basket-wrap {
-        height: 350px;
-    }
+
 
     #foo {
         width: 100%;
@@ -604,34 +639,6 @@
         margin-left: auto !important;
         margin-right: auto !important;
         width: 100% !important;
-    }
-
-    .mobile-basket-wrap .basket-left {
-        display: block;
-        float: none;
-        width: 100% !important;
-    }
-
-    .basket .left_side .bottle {
-        height: 100px;
-        margin-left: 0;
-        margin-top: 10px;
-        display: inline-block;
-        margin-bottom: 0;
-        vertical-align: middle;
-    }
-
-    .mobile-basket-wrap .basket-right {
-        display: block;
-        width: 100% !important;
-        float: none;
-    }
-
-    .basket .red_label {
-        margin-left: 0 !important;
-        margin-bottom: 0;
-        display: inline-block;
-        vertical-align: middle;
     }
 
     #country_select {

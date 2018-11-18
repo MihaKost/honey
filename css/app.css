@@ -1228,6 +1228,15 @@ footer .logo {
     border-radius: 10px;
 }
 
+/*#foo {*/
+  /*position: fixed;*/
+  /*display: none;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*width: 100%;*/
+  /*z-index: 9000;*/
+/*}*/
+
 .modal .blocks_set .img1 {
     width: 228px;
     cursor: pointer;
@@ -1572,7 +1581,7 @@ select::-ms-expand {
     }
 
     .blocks_set {
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     .bl_set {
@@ -1920,6 +1929,10 @@ select::-ms-expand {
     h3 {
         line-height: 26px;
     }
+
+    .bl_set {
+      margin-bottom: 20px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -2035,6 +2048,11 @@ select::-ms-expand {
         left: 2.5%;
         height: calc(100% - 15px);
         height: auto;
+        padding-bottom: 0;
+    }
+
+    .blocks_set {
+      margin-top: 10px;
     }
 
     .modal .blocks_set .img1 {
@@ -2056,6 +2074,9 @@ select::-ms-expand {
 
     .bl_set {
         margin-bottom: 15px;
+    }
+    .bl_set:last-child {
+        margin-bottom: 10px;
     }
 
     .close {
@@ -2142,6 +2163,12 @@ select::-ms-expand {
         width: 100%;
     }
 }
+
+#foo {
+  padding: 0 10px;
+}
+
+
 
 #vk_groups {
     display: table;
