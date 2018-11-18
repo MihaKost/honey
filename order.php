@@ -1,5 +1,5 @@
 <?php
-$admin_email='makoma@mail.ru';
+$admin_email='makoma@mail.ru, mihakost81@gmail.com';
 $theme='Заказ товара';
 $site=$_SERVER['SERVER_NAME'];
 $delim=PHP_EOL;
