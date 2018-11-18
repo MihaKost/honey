@@ -79,7 +79,8 @@ function gtag_report_conversion(url) {
     <link href="css/mains.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
     <link href="css/kladr.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" rel="stylesheet">
+    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
 	<!-- <script src="https://vk.com/js/api/openapi.js?150" type="text/javascript"></script> -->
     <script>
         var payment = '';
@@ -478,11 +479,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="bl_certif" onclick="gtag('event', 'click', { 'event_category': 'Instagram', 'event_action': 'Perehod'}); return true;">
                 <iframe src="//widget.instagramm.ru/?imageW=3&imageH=2&thumbnail_size=137&type=0&typetext=honeyteddy.ua&head_show=1&profile_show=1&shadow_show=0&bg=ffffff&head_bg=46729b&subscribe_bg=ad4141&border_color=ffffff&head_title="
                         allowtransparency="true" frameborder="0" scrolling="no"
-                        style="border:none;overflow:hidden;width:310px;height:435px;"></iframe>
+                        style="border:none;overflow:hidden;width:300px;height:435px;"></iframe>
             </div>
             <div class="bl_certif" onclick="gtag('event', 'click', { 'event_category': 'Facebook', 'event_action': 'Perehod'}); return true;">
                 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhoneyteddyukraine&tabs=timeline&width=300&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1286362031418177"
-                        width="310" height="435" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        width="300" height="435" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
                         allowTransparency="true"></iframe>
             </div>
         </div>
@@ -637,7 +638,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </p>
 </div>
 
-<div id="foo" style="display: none;">
+<div id="foo">
     <p class="sum_hidden">590</p>
     <div class="basket">
         <div class="wrapper2">
@@ -653,12 +654,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <span class="price">
                                             <span class="dollar"></span>
 
-
                         <div style="width:70px;height:34px;margin:0px 0 0 0;position:absolute;"></div>
 
                         <div style="width:70px;height:34px;margin:0px 0 0 5px;overflow:hidden;float:left;">
                             <textarea style="width:0px;height:0px;position:absolute;margin:-100px;"></textarea>
-                            <textarea style="border:none;background:none;width:90px;font-size:26px;height:34px;line-height:34px;padding-right:20px;outline:none;font-family:'OpenSans-Regular', sans-serif;color:#ffffff;text-align:right;"  class="summ" name="summ" >
+                            <textarea style="border:none;background:none;width:90px;font-size:26px;height:34px;line-height:34px;padding-right:20px;outline:none;font-family:'OpenSans-Regular', sans-serif;color:#ffffff;text-align:right;"  class="summ" name="summ">
                                 590</textarea>
                         </div>
 
@@ -922,9 +922,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
+<!--<script src="js/jquery-3.2.1.min.js"></script>-->
+
+<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>-->
 
 <script src="js/app.js?v=4"></script>
 <script src="js/kladr.min.js"></script>
